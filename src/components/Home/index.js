@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
-import LogoTitle from "../../assets/images/logo-s.png";
+import LogoTitle from "../../assets/images/logo-m.png";
 import Logo from "./Logo";
 import "./index.scss";
 
@@ -33,7 +33,7 @@ const Home = () => {
 						<br />
 						<AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
 					</h1>
-					<h2>Front End Developer / JavaScript Expert</h2>
+					<h2>Full Stack Developer / Python / JavaScript</h2>
 					<Link to="/contact" className="flat-button">
 						CONTACT ME
 					</Link>

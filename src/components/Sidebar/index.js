@@ -1,6 +1,6 @@
 import "./index.scss";
-import LogoS from "../../assets/images/logo-s.png";
-import LogoSubtitle from "../../assets/images/logo_sub.png";
+import LogoM from "../../assets/images/logo-m.png";
+import LogoSubtitle from "../../assets/images/logo-m_sub.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faYoutube, faSkype, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faHome, faUser, faEnvelope, faSuitcase } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,7 @@ const Sidebar = () => {
 	return (
 		<div className="nav-bar">
 			<Link className="logo" to="/">
-				<img src={LogoS} alt="Logo" />
+				<img src={LogoM} alt="Logo" />
 				<img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
 			</Link>
 			<nav>
